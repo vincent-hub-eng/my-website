@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+body{
+    background: #050505;
+    color: white;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: rgba(0,0,0,0.7);
+    border-bottom: 1px solid #111;
+}
+nav h2{
+    color: red;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav ul li a{
+    color: #aaa;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    background: radial-gradient(circle,#1a0000,#050505);
+}
+.hero-text h1{
+font-size: 50px;
+}
+.hero p{
+    color: #aaa;
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+}
+.primary{
+    background: red;
+    color: white;
+}
+.secondary{
+    border: 1px solid red;
+    color: white;
+}
+.hero img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(red,black);
+    box-shadow: 0 0 30px red;
+}
+section{
+    padding: 80px;
+}
+.title{
+    text-align: center;
+    color: red;
+    margin-bottom: 30px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.skills div{
+    padding: 10px 15px;
+    background: #111;
+    border: 1px solid #222;
+}
+.projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 15px;
+}
+.card{
+    background: #111;
+    padding: 20px;
+    border: 1px solid #222;
+    transition: 0.3s;
+}
+.card:hover{
+    border-color: red;
+    transform: translateY(-5px);
+}
+.contact a{
+    margin: 10px;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 1px solid #333;
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    background: red;
+    border-color: red;
+}
