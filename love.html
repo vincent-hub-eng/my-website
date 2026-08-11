@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Girlfriend's Day ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#09020d;
+color:white;
+overflow-x:hidden;
+
+}
+
+/* Background */
+
+body::before{
+
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+
+background:
+radial-gradient(circle at top,#ff2e88 0%,transparent 35%),
+radial-gradient(circle at bottom,#6d0059 0%,transparent 40%),
+linear-gradient(#09020d,#130011);
+
+z-index:-4;
+
+}
+
+/* Stars */
+
+.stars{
+
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+overflow:hidden;
+z-index:-3;
+
+}
+
+.star{
+
+position:absolute;
+background:white;
+border-radius:50%;
+animation:twinkle 3s infinite;
+
+}
+
+@keyframes twinkle{
+
+0%,100%{
+opacity:.2;
+}
+
+50%{
+opacity:1;
+}
+
+}
+
+/* Floating Hearts */
+
+.hearts{
+
+position:fixed;
+width:100%;
+height:100%;
+pointer-events:none;
+overflow:hidden;
+z-index:-2;
+
+}
+
+.heart{
+
+position:absolute;
+bottom:-50px;
+font-size:22px;
+animation:floatHeart linear forwards;
+
+}
+
+@keyframes floatHeart{
+
+0%{
+
+transform:translateY(0) scale(.5);
+opacity:0;
+
+}
+
+20%{
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-120vh) scale(1.5) rotate(360deg);
+opacity:0;
+
+}
+
+}
+
+/* Navbar */
+
+nav{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:18px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.35);
+backdrop-filter:blur(15px);
+z-index:999;
+
+}
+
+.logo{
+
+font-family:"Great Vibes",cursive;
+font-size:40px;
+color:#ff69b4;
+
+}
+
+nav ul{
+
+display:flex;
+list-style:none;
+gap:30px;
+
+}
+
+nav ul li a{
+
+text-decoration:none;
+color:white;
+font-weight:600;
+transition:.4s;
+
+}
+
+nav ul li a:hover{
+
+color:#ff5da2;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:120px 20px;
+
+}
+
+.hero-content{
+
+max-width:900px;
+
+}
+
+.hero h1{
+
+font-family:"Great Vibes",cursive;
+font-size:90px;
+color:#ff6db7;
+
+text-shadow:
+
+0 0 20px #ff2f92,
+0 0 40px #ff2f92;
+
+}
+
+.hero h2{
+
+font-size:38px;
+margin:20px 0;
+
+}
+
+.hero p{
+
+font-size:20px;
+line-height:1.8;
+color:#f3d6e7;
+
+}
+
+/* Buttons */
+
+.buttons{
+
+margin-top:45px;
+
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+
+}
+
+.btn{
+
+padding:18px 45px;
+
+border:none;
+border-radius:50px;
+
+font-size:18px;
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+.primary{
+
+background:#ff2f92;
+color:white;
+
+box-shadow:
+
+0 0 20px #ff2f92;
+
+}
+
+.primary:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+
+0 0 40px #ff2f92;
+
+}
+
+.secondary{
+
+background:white;
+color:#ff2f92;
+
+}
+
+.secondary:hover{
+
+transform:translateY(-8px);
+
+}
+
+/* Glass Cards */
+
+.container{
+
+width:90%;
+max-width:1200px;
+margin:auto;
+
+}
+
+.section{
+
+padding:90px 0;
+
+}
+
+.title{
+
+text-align:center;
+font-size:55px;
+font-family:"Great Vibes",cursive;
+margin-bottom:60px;
+color:#ff6ab4;
+
+}
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+
+}
+
+.card{
+
+background:rgba(255,255,255,.06);
+
+border:1px solid rgba(255,255,255,.15);
+
+border-radius:25px;
+
+padding:35px;
+
+backdrop-filter:blur(15px);
+
+transition:.5s;
+
+}
+
+.card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 0 30px #ff2f92;
+
+}
+
+.card h3{
+
+margin-bottom:15px;
+color:#ff6ab4;
+
+}
+
+/* Counter */
+
+.counter{
+
+display:grid;
+grid-template-columns:repeat(6,1fr);
+gap:20px;
+
+}
+
+.time{
+
+background:rgba(255,255,255,.08);
+
+padding:25px;
+border-radius:20px;
+
+text-align:center;
+
+}
+
+.time span{
+
+font-size:45px;
+font-weight:bold;
+display:block;
+
+color:#ff5da2;
+
+}
+
+.time small{
+
+font-size:17px;
+
+}
+
+/* Letter */
+
+.letter{
+
+font-size:20px;
+line-height:2;
+text-align:center;
+max-width:900px;
+margin:auto;
+
+}
+
+/* Footer */
+
+footer{
+
+padding:40px;
+text-align:center;
+
+font-size:18px;
+
+color:#ccc;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.hero h1{
+
+font-size:60px;
+
+}
+@keyframes floatHeart{
+
+0%{
+transform:translateY(0) scale(.5);
+opacity:0;
+}
+
+20%{
+opacity:1;
+}
+
+100%{
+transform:translateY(-120vh) scale(1.5) rotate(360deg);
+opacity:0;
+}
+
+}
+
+.card{
+opacity:0;
+}
+
+.hero h2{
+
+font-size:30px;
+
+}
+
+.counter{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:600px){
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.counter{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+#loginScreen{
+    position:fixed;
+    inset:0;
+    z-index:999999;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:
+    radial-gradient(circle at top,#ff4d88 0%,#8b004f 45%,#180012 100%);
+    overflow:hidden;
+}
+
+.loginBox{
+
+    width:420px;
+    max-width:90%;
+    padding:40px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.2);
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:
+    0 0 40px rgba(255,20,147,.35);
+
+}
+
+.logoHeart{
+
+    font-size:70px;
+
+    animation:heartPulse 1.5s infinite;
+
+}
+
+.loginBox h1{
+
+    color:#fff;
+
+    font-size:42px;
+
+    letter-spacing:4px;
+
+    margin:15px 0;
+
+}
+
+.subtitle{
+
+    color:#ffd8e8;
+
+    margin-bottom:30px;
+
+}
+
+.status{
+
+    color:#fff;
+
+    margin-bottom:25px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.dot{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+    background:#ff4040;
+
+    box-shadow:0 0 15px #ff4040;
+
+    animation:blink 1s infinite;
+
+}
+
+#password{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    outline:none;
+
+    font-size:16px;
+
+    margin-bottom:20px;
+
+    box-sizing:border-box;
+
+}
+
+#unlockBtn{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    background:#ff2d75;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+#unlockBtn:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 25px hotpink;
+
+}
+
+#loadingArea{
+
+    margin-top:30px;
+
+    display:none;
+
+}
+
+#loadingText{
+
+    color:white;
+
+    margin-bottom:15px;
+
+    min-height:28px;
+
+    font-size:18px;
+
+}
+
+.progress{
+
+    width:100%;
+
+    height:14px;
+
+    background:rgba(255,255,255,.2);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+#progressBar{
+
+    width:0%;
+
+    height:100%;
+
+    background:linear-gradient(90deg,#ff2d75,#ff9ac5);
+
+    transition:width .5s;
+
+}
+
+@keyframes heartPulse{
+
+    0%,100%{
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.15);
+
+    }
+
+}
+
+@keyframes blink{
+
+    50%{
+
+        opacity:.3;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+    <!-- ================= LOGIN SCREEN ================= -->
+
+<div id="loginScreen">
+
+    <div class="loginBox">
+
+        <div class="logoHeart">❤️</div>
+
+        <h1>PATELO OS</h1>
+
+        <p class="subtitle">
+            Secure Love Connection
+        </p>
+
+        <div class="status">
+
+            <span class="dot"></span>
+
+            Waiting for authentication...
+
+        </div>
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter our secret password ❤️">
+
+        <button id="unlockBtn">
+
+            Unlock My Gift ❤️
+
+        </button>
+
+        <div id="loadingArea">
+
+            <div id="loadingText"></div>
+
+            <div class="progress">
+
+                <div id="progressBar"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="stars"></div>
+
+<div class="hearts"></div>
+
+<nav>
+
+<div class="logo">
+
+My Love ❤️
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#letter">Letter</a></li>
+
+<li><a href="#love">Love</a></li>
+
+<li><a href="#counter">Counter</a></li>
+
+<li><a href="#end">Forever</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>Happy Girlfriend's Day ❤️</h1>
+
+<h2>To The Most Beautiful Girl In My World</h2>
+
+<p>
+
+Every heartbeat reminds me of you.
+
+Every smile begins with you.
+
+Every dream includes you.
+
+Thank you for making my life beautiful.
+
+</p>
+
+<div class="buttons">
+
+<button class="btn primary" id="loveBtn">
+
+❤️ I Love You
+
+</button>
+
+<button class="btn secondary">
+
+Forever & Always
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+<!-- ===========================
+LOVE LETTER
+=========================== -->
+
+<section class="section" id="letter">
+
+<div class="container">
+
+<h2 class="title">A Letter For You 💌</h2>
+
+<div class="card">
+
+<div class="letter" id="typeLetter"></div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+WHY I LOVE YOU
+=========================== -->
+
+<section class="section" id="love">
+
+<div class="container">
+
+<h2 class="title">Why I Love You ❤️</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>😊 Your Smile</h3>
+
+<p>
+Your smile brightens every day of my life.
+It gives me peace and reminds me how lucky I am to have you.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>💖 Your Heart</h3>
+
+<p>
+Your kindness and love make everyone around you happier.
+You have the most beautiful heart I have ever known.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌎 My Safe Place</h3>
+
+<p>
+Whenever I am with you,
+the whole world feels calm.
+Home is wherever you are.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌹 Forever</h3>
+
+<p>
+No matter what tomorrow brings,
+I will always choose you,
+love you,
+respect you,
+and stand beside you.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>✨ Beautiful Soul</h3>
+
+<p>
+Your beauty isn't just your face.
+It is your kindness,
+your patience,
+your strength,
+and your beautiful soul.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>❤️ Thank You</h3>
+
+<p>
+Thank you for believing in me,
+supporting me,
+making me laugh,
+and making every ordinary day feel special.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+LOVE COUNTER
+=========================== -->
+
+<section class="section" id="counter">
+
+<div class="container">
+
+<h2 class="title">
+
+Together Since ❤️
+
+</h2>
+
+<div class="counter">
+
+<div class="time">
+
+<span id="years">0</span>
+
+<small>Years</small>
+
+</div>
+
+<div class="time">
+
+<span id="months">0</span>
+
+<small>Months</small>
+
+</div>
+
+<div class="time">
+
+<span id="days">0</span>
+
+<small>Days</small>
+
+</div>
+
+<div class="time">
+
+<span id="hours">0</span>
+
+<small>Hours</small>
+
+</div>
+
+<div class="time">
+
+<span id="minutes">0</span>
+
+<small>Minutes</small>
+
+</div>
+
+<div class="time">
+
+<span id="seconds">0</span>
+
+<small>Seconds</small>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+PROMISES
+=========================== -->
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="title">
+
+My Promises 💍
+
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>❤️ Love</h3>
+
+<p>
+I promise to love you every single day,
+through happiness,
+through challenges,
+and through every season of life.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🤝 Respect</h3>
+
+<p>
+I promise to respect your dreams,
+your feelings,
+and your decisions,
+always.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌹 Care</h3>
+
+<p>
+I promise to care for you,
+comfort you,
+and always make you feel appreciated.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>✨ Forever</h3>
+
+<p>
+If I had to choose again,
+I would still choose you.
+Again.
+Again.
+And forever.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+ENDING
+=========================== -->
+
+<section class="section" id="end">
+
+<div class="container">
+
+<div class="card">
+
+<h2 class="title">
+
+Happy Girlfriend's Day ❤️
+
+</h2>
+
+<div class="letter">
+
+Thank you for coming into my life.
+
+Thank you for making me smile.
+
+Thank you for being my happiness.
+
+No matter where life takes us,
+
+you will always have a special place in my heart.
+
+<br><br>
+
+❤️
+
+I Love You So Much
+
+❤️
+
+<br><br>
+
+Forever Yours,
+
+<br>
+
+<b>Patelo ❤️</b>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<footer>
+
+Made with ❤️ by Ady Trapo
+
+</footer>
+
+<script>
+
+// ----------------------------
+// CREATE STARS
+// ----------------------------
+
+const stars = document.querySelector(".stars");
+
+for(let i=0;i<250;i++){
+
+const star=document.createElement("div");
+
+star.className="star";
+
+star.style.width=Math.random()*3+"px";
+star.style.height=star.style.width;
+
+star.style.left=Math.random()*100+"%";
+star.style.top=Math.random()*100+"%";
+
+star.style.animationDelay=Math.random()*5+"s";
+
+stars.appendChild(star);
+
+}
+
+// ----------------------------
+// FLOATING HEARTS
+// ----------------------------
+
+const hearts=document.querySelector(".hearts");
+
+function createHeart(){
+
+const heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML="❤️";
+
+heart.style.left=Math.random()*100+"%";
+
+heart.style.fontSize=(20+Math.random()*35)+"px";
+
+heart.style.animationDuration=(5+Math.random()*5)+"s";
+
+hearts.appendChild(heart);
+
+setTimeout(()=>{
+
+heart.remove();
+
+},10000);
+
+}
+
+setInterval(createHeart,300);
+
+// ----------------------------
+// TYPE WRITER
+// ----------------------------
+
+const message=`My Love,
+
+Happy Girlfriend's Day ❤️
+
+Every day with you is my favorite day.
+
+Thank you for loving me,
+supporting me,
+believing in me,
+and making my life brighter.
+
+You are my happiness,
+my peace,
+my best friend,
+and my greatest blessing.
+
+If I had one wish,
+it would be to keep making beautiful memories with you forever.
+
+I love you more than words can ever explain.
+
+Forever Yours,
+
+❤️ Ady Trapo ❤️`;
+
+let i=0;
+
+function typing(){
+
+if(i<message.length){
+
+document.getElementById("typeLetter").innerHTML+=message.charAt(i);
+
+i++;
+
+setTimeout(typing,40);
+
+}
+
+}
+
+typing();
+
+// ----------------------------
+// LOVE COUNTER
+// ----------------------------
+
+// CHANGE THIS DATE
+
+const startDate=new Date("2026-07-02T00:00:00");
+
+function updateCounter(){
+
+const now=new Date();
+
+let diff=now-startDate;
+
+const second=1000;
+const minute=60*second;
+const hour=60*minute;
+const day=24*hour;
+
+const years=Math.floor(diff/(365*day));
+
+diff-=years*(365*day);
+
+const months=Math.floor(diff/(30*day));
+
+diff-=months*(30*day);
+
+const days=Math.floor(diff/day);
+
+diff-=days*day;
+
+const hours=Math.floor(diff/hour);
+
+diff-=hours*hour;
+
+const minutes=Math.floor(diff/minute);
+
+diff-=minutes*minute;
+
+const seconds=Math.floor(diff/1000);
+
+document.getElementById("years").innerHTML=years;
+
+document.getElementById("months").innerHTML=months;
+
+document.getElementById("days").innerHTML=days;
+
+document.getElementById("hours").innerHTML=hours;
+
+document.getElementById("minutes").innerHTML=minutes;
+
+document.getElementById("seconds").innerHTML=seconds;
+
+}
+
+updateCounter();
+
+setInterval(updateCounter,1000);
+
+// ----------------------------
+// LOVE BUTTON
+// ----------------------------
+
+const loveBtn=document.getElementById("loveBtn");
+
+loveBtn.onclick=function(){
+
+loveBtn.innerHTML="❤️ I LOVE YOU ❤️";
+
+fireworks();
+
+};
+
+// ----------------------------
+// FIREWORKS
+// ----------------------------
+
+function fireworks(){
+
+for(let i=0;i<120;i++){
+
+const p=document.createElement("div");
+
+p.innerHTML=["❤️","💖","💕","💗","💘"][Math.floor(Math.random()*5)];
+
+p.style.position="fixed";
+
+p.style.left=window.innerWidth/2+"px";
+
+p.style.top=window.innerHeight/2+"px";
+
+p.style.fontSize=(20+Math.random()*30)+"px";
+
+p.style.pointerEvents="none";
+
+document.body.appendChild(p);
+
+const angle=Math.random()*360;
+
+const distance=150+Math.random()*300;
+
+const x=Math.cos(angle*Math.PI/180)*distance;
+
+const y=Math.sin(angle*Math.PI/180)*distance;
+
+p.animate([
+
+{
+
+transform:"translate(0,0) scale(1)",
+
+opacity:1
+
+},
+
+{
+
+transform:`translate(${x}px,${y}px) scale(0)`,
+
+opacity:0
+
+}
+
+],{
+
+duration:2500,
+
+easing:"ease-out"
+
+});
+
+setTimeout(()=>{
+
+p.remove();
+
+},2500);
+
+}
+
+}
+
+
+const unlockBtn = document.getElementById("unlockBtn");
+const passwordInput = document.getElementById("password");
+const loadingArea = document.getElementById("loadingArea");
+const loadingText = document.getElementById("loadingText");
+const progressBar = document.getElementById("progressBar");
+const loginScreen = document.getElementById("loginScreen");
+const statusDot = document.querySelector(".dot");
+const statusText = document.querySelector(".status");
+
+const PASSWORD = "my love"; // <-- Change this
+
+unlockBtn.addEventListener("click", unlockGift);
+
+passwordInput.addEventListener("keydown", function(e){
+
+    if(e.key === "Enter"){
+
+        unlockGift();
+
+    }
+
+});
+
+function unlockGift(){
+
+    if(passwordInput.value !== PASSWORD){
+
+        passwordInput.value = "";
+        passwordInput.placeholder = "❌ Wrong Password";
+        passwordInput.style.border = "2px solid red";
+
+        return;
+
+    }
+
+    passwordInput.style.display = "none";
+    unlockBtn.style.display = "none";
+
+    loadingArea.style.display = "block";
+
+    statusDot.style.background = "#00ff66";
+    statusDot.style.boxShadow = "0 0 20px #00ff66";
+    statusText.lastChild.textContent = " Connected";
+
+    const steps = [
+
+        {
+            text:"❤️ Connecting to patelo...",
+            progress:15
+        },
+
+        {
+            text:"💖 Verifying our memories...",
+            progress:35
+        },
+
+        {
+            text:"💕 Collecting kisses...",
+            progress:55
+        },
+
+        {
+            text:"🌹 Unlocking our love story...",
+            progress:75
+        },
+
+        {
+            text:"✨ Preparing your surprise...",
+            progress:95
+        },
+
+         {
+            text:"✨ Wait a few secs...",
+            progress:99
+        },
+
+        {
+            text:"❤️ Welcome My Love,my love ❤️",
+            progress:100
+        }
+
+    ];
+
+    let i = 0;
+
+    function nextStep(){
+
+        loadingText.innerHTML = steps[i].text;
+
+        progressBar.style.width =
+        steps[i].progress + "%";
+
+        i++;
+
+        if(i < steps.length){
+
+            setTimeout(nextStep,1200);
+
+        }else{
+
+            setTimeout(function(){
+
+                loginScreen.style.transition = "1.5s";
+
+                loginScreen.style.opacity = "0";
+
+                if(typeof heartExplosion === "function"){
+
+                    heartExplosion();
+
+                }
+
+                setTimeout(function(){
+
+                    loginScreen.style.display = "none";
+
+                },1500);
+
+            },1000);
+
+        }
+
+    }
+
+    nextStep();
+
+}
+
+// ----------------------------
+// SCROLL ANIMATION
+// ----------------------------
+
+const cards=document.querySelectorAll(".card");
+
+const observer=new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.animate([
+
+{
+
+opacity:0,
+
+transform:"translateY(80px)"
+
+},
+
+{
+
+opacity:1,
+
+transform:"translateY(0)"
+
+}
+
+],{
+
+duration:900,
+
+fill:"forwards"
+
+});
+
+}
+
+});
+
+});
+
+cards.forEach(card=>observer.observe(card));
+
+</script>
+
+</body>
+</html>
